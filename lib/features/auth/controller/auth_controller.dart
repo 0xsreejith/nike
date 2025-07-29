@@ -50,7 +50,7 @@ class AuthController extends GetxController {
     final prefs = await SharedPreferences.getInstance();
     final hasSeenSplash = prefs.getBool('hasSeenSplash') ?? false;
     if (!hasSeenSplash) {
-      Get.offAll(() => const SplashPager());
+      Get.offAll(() => const OnboardingScreen());
     } else {
       Get.offAll(() => const HomeScreen());
     }

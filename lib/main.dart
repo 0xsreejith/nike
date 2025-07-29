@@ -1,10 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:nike/core/app/splash_screen.dart';
+
 import 'package:nike/features/auth/controller/auth_controller.dart';
+import 'package:nike/features/splash-section/splash_screen_one.dart';
 import 'package:nike/firebase_options.dart';
-import 'core/app/landing_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); // Must be called first
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }

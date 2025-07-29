@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "512305095847",
+    "project_id": "nike-shoes-apparel-stories",
+    "storage_bucket": "nike-shoes-apparel-stories.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512305095847:android:0bb65cb61a29e47a6be782",
+        "android_client_info": {
+          "package_name": "com.example.nike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512305095847-79ng80lkfo7tpp20j208jj97p6n71d5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nike",
+            "certificate_hash": "e5b9edf6b003490a03f964f18e0b286f68189ef1"
+          }
+        },
+        {
+          "client_id": "512305095847-j9pkd5dn7tl7j4vi9g6hathet2d8165g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhteCT4WkKQjUkvdqCzfAL11xCUN9o3KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512305095847-evbgnggqh46nevle2janfdaqoblae0bp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "512305095847-vaqtcb7cpbphtfpdcpb7krfljknurt6r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nike"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

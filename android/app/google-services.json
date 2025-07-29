@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "512305095847",
+    "project_id": "nike-shoes-apparel-stories",
+    "storage_bucket": "nike-shoes-apparel-stories.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512305095847:android:0bb65cb61a29e47a6be782",
+        "android_client_info": {
+          "package_name": "com.example.nike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhteCT4WkKQjUkvdqCzfAL11xCUN9o3KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
